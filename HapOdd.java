@@ -15,7 +15,7 @@ public class HapOdd {
 		
 		for(i=min ; i<=max ;i+=2){
 			hap = hap+i;
-			System.out.printf("%d", hap);
+			System.out.printf("%d", hap); // 이 구문이 for 문 바깥으로 나가야한다.
 			}
 
 	}
